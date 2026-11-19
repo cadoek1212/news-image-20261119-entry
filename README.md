@@ -4,9 +4,7 @@
 [![rank](https://make.fun/badge/news-image-20261119/cadoek1212/news-image-20261119-entry/rank.svg)](https://make.fun/bounty/news-image-20261119/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119)
 [![reward](https://make.fun/badge/news-image-20261119/cadoek1212/news-image-20261119-entry/reward.svg)](https://make.fun/bounty/news-image-20261119?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119)
 
-A program that draws one newspaper-style image summing up the world news of Thursday 19 November 2026: a masthead with the date, the three lead stories (GTA VI launches worldwide, the first Trump–Xi–Putin trilateral in Shenzhen, the ICJ's Myanmar genocide verdict), a hand-drawn world map with 12 numbered pins, and an index of 30 stories across 6 regions. Pure Node.js standard library — a tiny software rasterizer with a hand-drawn 5x7 bitmap font and a deterministic PNG encoder — no network, no external assets. Two runs write byte-identical files.
-
-Provisional build: the day had just begun when this was drawn (~01:20 UTC 19 Nov 2026), so later events of the day are refreshed in a v2 before submission.
+One 1024x1024 newspaper front page summing up the world's news of Thursday 19 November 2026: three lead stories (the Trump–Xi–Putin trilateral in Shenzhen, Israeli tanks crossing the Gaza ceasefire line, and the GTA VI launch), a stylised world map with numbered pins, and a 30-story index across six regions — North America, South America, Europe, the Middle East, Africa and Asia-Pacific. Every story was first reported on 19 November 2026 (BBC, NYT, Reuters, The Hindu, NDTV, AP, Pew Research). The image is drawn from scratch in code — a hand-built 5x7 bitmap font, a scanline polygon map, and a hand-rolled PNG encoder — with no network and no assets, so two runs produce byte-identical output. Provisional: the day was still under way in late time zones when this version was rendered (stories as reported by 01:30 UTC).
 
 ## Run it
 
