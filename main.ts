@@ -465,7 +465,7 @@ function drawPage(): void {
   // Footer.
   fillRect(24, 950, W - 48, 2, GOLD);
   drawCentered(
-    "Provisional: 19 November still under way in late time zones. Stories as reported by 01:30 UTC.",
+    "Full day: 19 November 2026, all time zones.",
     962,
     1,
     MUTED,
